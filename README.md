@@ -1,5 +1,5 @@
 # Resturants-app
-# React js app 
+ React js app 
 # most popular resturants in the world 
 # get data from api using axios 
 # Simple Design using sass and bootstap 
