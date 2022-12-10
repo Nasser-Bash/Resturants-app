@@ -1,0 +1,16 @@
+@import "./styleVariables";
+.footer{
+    background-color: $secondryColor;
+    .email{
+        background-color: $thirdColor;
+        color: $secondryColor;
+    }
+    .social{
+        a{
+            transition: all 0.3 ease-in;
+            &:hover{
+                color: $thirdColor; 
+            }
+        }
+    }
+}

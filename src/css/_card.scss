@@ -1,0 +1,11 @@
+@import "./styleVariables";
+.card{
+    a{
+        text-decoration: none;
+        color: $secondryColor;
+    }
+    img{
+        max-height: 150px;
+        object-fit: cover;
+    }
+}

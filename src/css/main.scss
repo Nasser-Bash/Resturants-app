@@ -1,0 +1,25 @@
+// The main css file
+@import "./styleVariables";
+@import "./card";
+@import "./search";
+@import "./navbar";
+@import "./sidebar";
+@import "./footer";
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:$mainColor;
+    font-family: $font;
+}
+.button{
+    background-color: $secondryColor;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color: $thirdColor;
+        color: $secondryColor;
+    }
+}
